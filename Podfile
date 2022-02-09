@@ -6,7 +6,7 @@ target 'MyFirstObjectiveCApp' do
   use_frameworks!
 
   # Pods for MyFirstObjectiveCApp
-
+  pod 'OneSignalXCFramework', :git => 'https://github.com/OneSignal/OneSignal-iOS-SDK.git', :branch => 'OneSignal_Extension'
 end
 
 target 'OneSignalNotificationServiceExtension' do
@@ -14,5 +14,5 @@ target 'OneSignalNotificationServiceExtension' do
   use_frameworks!
 
   # Pods for OneSignalNotificationServiceExtension
-
+  pod 'OneSignalXCFramework', :git => 'https://github.com/OneSignal/OneSignal-iOS-SDK.git', :branch => 'OneSignal_Extension'
 end
