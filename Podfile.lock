@@ -1,0 +1,22 @@
+PODS:
+  - OneSignalXCFramework (3.10.0)
+
+DEPENDENCIES:
+  - OneSignalXCFramework (from `https://github.com/OneSignal/OneSignal-iOS-SDK.git`, branch `OneSignal_Extension`)
+
+EXTERNAL SOURCES:
+  OneSignalXCFramework:
+    :branch: OneSignal_Extension
+    :git: https://github.com/OneSignal/OneSignal-iOS-SDK.git
+
+CHECKOUT OPTIONS:
+  OneSignalXCFramework:
+    :commit: 4058ede8c7b7036d0d7f3834049201ac61e1d40c
+    :git: https://github.com/OneSignal/OneSignal-iOS-SDK.git
+
+SPEC CHECKSUMS:
+  OneSignalXCFramework: 10648e60ff3d335fbffa62d9b44b700b56d49b51
+
+PODFILE CHECKSUM: 88ec885112869158c981d4a7fa383038591418d8
+
+COCOAPODS: 1.11.2
