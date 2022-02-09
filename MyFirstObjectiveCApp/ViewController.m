@@ -18,5 +18,8 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)sayHello:(id)sender {
+    [helloLabel setText:@"Hello World."];
+}
 
 @end
